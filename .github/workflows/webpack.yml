@@ -22,4 +22,3 @@ jobs:
       working-directory: ././generic-app
       run: |
         npm install
-        npx webpack
