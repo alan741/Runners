@@ -1,10 +1,6 @@
 name: NodeJS with Webpack
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+on: [push]
 
 jobs:
   build:
@@ -23,6 +19,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
+      working-directory: ././generic-app
       run: |
         npm install
         npx webpack
