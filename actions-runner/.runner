@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "ALAN",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus4.actions.githubusercontent.com/uAc71P0DIFO1xEv1PO2E7yrLGYlyW8T9ea4hsTUdCTT72CTy2R/",
+  "gitHubUrl": "https://github.com/alan741/Runners",
+  "workFolder": "_work"
+}
